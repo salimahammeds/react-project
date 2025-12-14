@@ -26,7 +26,7 @@ export default function Test() {
     </div>
     <button onClick={()=>{
         setList(list=>[<Counter id="c"/>,...list])
-    }}>add</button>
+    }}>Add count</button>
 
   </>
 }
