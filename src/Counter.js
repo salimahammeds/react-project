@@ -1,7 +1,7 @@
 import React, { useState,useRef } from 'react';
 function Counter({ id }) {
   const [count, setCount] = useState(0);
-  
+  console.log("a new commit")
   return (
     <div>
       {id}: {count}
